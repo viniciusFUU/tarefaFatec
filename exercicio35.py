@@ -1,0 +1,6 @@
+nome = input("Entre com teu nome: ")
+endereco = input("Entre com teu endereco: ")
+telefone = input("Entre com teu telefone: ")
+print(f"Nome: {nome}")
+print(f"Endereco: {endereco}")
+print(f"Telefone: {telefone}")
