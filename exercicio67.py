@@ -1,0 +1,5 @@
+valorPrestacao=float(input("Digite o valor da prestação: "))
+taxa=float(input("Digite a taxa: "))
+parcela=int(input("Digite a quantidade de parcelas: "))
+prest=valorPrestacao+(valorPrestacao*(taxa/100)*parcela)
+print(f"O valor da prestação em atraso é: {prest}")
